@@ -31,7 +31,7 @@ Download the official production-grade BQDP framework assets from the remote Git
 
 ```bash
 # Clone the open-source master repository
-git clone https://github.com
+git (https://github.com/Ano-ro/Voynich-BERCEA-Quantum-4/blob/main/BQDP_Engine.py)
 
 # Navigate directly into the project root directory
 cd Voynich-BERCEA-Quantum-4
