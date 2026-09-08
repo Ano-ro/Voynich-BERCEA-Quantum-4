@@ -1,0 +1,15 @@
+# ==============================================================================
+# THE BERCEA QUANTUM-4 DECRYPTION PROTOCOL (BQDP) - DEPENDENCY PROFILE
+# Framework Architect: Ionuț Alin Bercea
+# Copyright (c) 2026 Ionuț Alin Bercea
+# ==============================================================================
+#
+# BQDP operates entirely on ultra-fast, native Python Standard Libraries.
+# This file ensures clean virtual environment synchronization.
+
+# Core Environment Target
+python>=3.8
+
+# Standard Core Packages Utilized (Built-In)
+# re (Regular Expressions Engine)
+# sys (System Core Callbacks & Integrity Anchors)
