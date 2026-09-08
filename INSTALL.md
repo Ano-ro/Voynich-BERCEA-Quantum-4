@@ -36,7 +36,7 @@ git clone https://github.com
 # Navigate directly into the project root directory
 cd Voynich-BERCEA-Quantum-4
 ```
-*(Note: Remember to replace "DEIN-GITHUB-BENUTZERNAME" with your actual GitHub account identifier).*
+
 
 ### Core Project Directory Structures
 Ensure that your cloned directory map reflects the following files upon successfully navigating into the root space:
