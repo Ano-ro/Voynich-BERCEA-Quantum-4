@@ -30,9 +30,8 @@ python --version
 Clone this repository directly into your local development workspace directory using your terminal:
 
 ```bash
-git clone https://github.com
-cd YOUR_REPOSITORY_NAME
-```
+  
+```https://github.com/Ano-ro/Voynich-BERCEA-Quantum-4.git
 
 ### Option B: Manual File Assembly
 If downloading without Git, copy the complete source code of `BQDP_Advanced_Core.py` from this repository, open a blank text editor (like Notepad or TextEdit), paste the code, and save the file exactly as:  
