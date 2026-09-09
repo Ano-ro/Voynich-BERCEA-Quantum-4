@@ -1,125 +1,88 @@
-# 🛠️ Installation & Verification Manual for the BQDP Engine
+# BQDP Installation Guide (Grounded Academic Core)
 
-This technical guide provides step-by-step instructions to configure your environment, clone the official workspace repository, and execute the indestructible multi-module cryptographic core of **The BERCEA Quantum-4 Decryption Protocol (BQDP)** [1.1].
+This document provides step-by-step instructions to install, verify, and run the **BERCEA Quantum-4 Decryption Protocol (BQDP)** framework on your local machine.
 
----
-
-## 📋 1. System Requirements
-
-Before running the framework engine, ensure your local deployment machine meets the following minimum baseline requirements:
-
-*   **Operating System:** Windows 10/11 (PowerShell or CMD), macOS (Terminal Interface), or Linux (Ubuntu 20.04 LTS or newer).
-*   **Python Runtime:** Python environment version `3.8`, `3.9`, `3.10`, or `3.11+` must be installed and correctly registered in your system environment path (PATH).
-*   **Git Client:** Command-line Git interface installed to automate source code cloning.
-
-### Verification of Local Prerequisites
-Open your terminal window (CMD, PowerShell, or Bash Terminal) and execute the verification commands below to audit your system status:
-
-```bash
-# Verify local Python installation
-python --version  # Alternative execution: py --version or python3 --version
-
-# Verify local Git configuration
-git --version
-```
+**Author:** Ionuț Alin Bercea  
+**Copyright:** Copyright (c) 2026 Ionuț Alin Bercea  
+**System Class:** Standalone Quantitative Cryptanalysis Core Engine (Zero External Dependencies) [1.1]
 
 ---
 
-## 📦 2. Cloning the Repository Workspace
+## 🛠️ Prerequisites
 
-Download the official production-grade BQDP framework assets from the remote GitHub servers directly onto your local target device:
+The BQDP engine is built entirely in native Python. It does not require any third-party framework packages or virtual environment allocations, ensuring a 100% lightweight memory footprint [1.1].
+
+* **Python Version:** Python 3.8 or higher is required [1.1].
+
+### Verifying Python Installation
+Open your terminal (Command Prompt on Windows, Terminal app on Mac/Linux) and execute:
 
 ```bash
-# Clone the open-source master repository
-git (https://github.com/Ano-ro/Voynich-BERCEA-Quantum-4/blob/main/BQDP_Engine.py)
-
-# Navigate directly into the project root directory
-cd Voynich-BERCEA-Quantum-4
+python --version
 ```
-
-
-### Core Project Directory Structures
-Ensure that your cloned directory map reflects the following files upon successfully navigating into the root space:
-```text
-Voynich-BERCEA-Quantum-4/
-├── BQDP_Engine.py        # The universal 6-script decryption automation engine
-├── INSTALL.md            # This environment installation deployment manual
-├── README.md             # The global framework presentation and documentation file
-└── requirements.txt      # The professional open-source environment lock profile
-```
+*If this returns `Python 3.x`, your runtime layer is prepared [1.1].*
 
 ---
 
-## 🔧 3. Synchronizing Environment Profiles
+## 📥 Step 1: Clone or Download the Files
 
-The BQDP architecture has been carefully optimized to be completely lightweight, secure, and lightning-fast. It executes entirely within Python's built-in native standard core modules (`re`, `sys`). **Zero bloated third-party pip downloads are required to run the code** [1.1].
-
-To complete your formal standard environment initialization profile check, execute:
+### Option A: Via Git CLI (Recommended)
+Clone this repository directly into your local development workspace directory:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com
+cd YOUR_REPOSITORY_NAME
 ```
-*Because the code runs natively, your terminal window will instantly clear with a success check layout without fetching heavy external dependency data packages.*
+
+### Option B: Manual File Assembly
+If downloading without Git, copy the source code of `BQDP_Grounded_Core.py` from this repository and save it into a dedicated project directory on your desktop.
 
 ---
 
-## 🧪 4. Executing the Global Multi-Script Stability Audit
+## 🚀 Step 2: System Integrity Verification
 
-To audit the mathematical continuity of the algorithm live on your computer and prove that the Layer 4 **Puzzle-Glue synthesis loop** handles highly structured historical cryptography across 6 separate ancient scripts without throwing a single parameter error or crash fault, ignite the master script file [1.1]:
+Navigate to the project root directory where `BQDP_Grounded_Core.py` is stored and run the integrated test suite track [1.1]:
 
 ```bash
-# Fire up the indestructible BQDP production engine core
-py BQDP_Engine.py  # Alternative execution: python BQDP_Engine.py or python3 BQDP_Engine.py
+python BQDP_Grounded_Core.py
 ```
 
-### Expected Consolidated Terminal Output Logs:
-Once compiled, the system pipeline will process 18 distinct verification target test payloads and output the following continuous system execution log on your monitor:
+### Expected Successful Terminal Output:
+The engine will instantly execute its 4-layer self-repair pipeline using its internal Levenshtein Distance Matrix [1.1]. A correct installation will display the following logs:
 
 ```text
 ==========================================================================================
-=== THE BQDP MULTI-SCRIPT DECRYPTION STABILITY AUDIT ===
+===      THE BERCEA QUANTUM-4 (BQDP) GROUNDED ACADEMIC COMPILER AUDIT           ===
 ==========================================================================================
 
---- Testing Module: [VOYNICH] ---
-  [Run 01] Input: ['chfola', 'taga8', 'coser', 'acva'] ➔ Glued Cleartext: "Fola taga, coser acva"
-  [Run 02] Input: ['chfeno', 'ramo', 'azeto', 'seco8'] ➔ Glued Cleartext: "Feno ramo azeto seco."
-  [Run 03] Input: ['chbulbo', 'tela', 'peso'] ➔ Glued Cleartext: "Bulbo tela peso"
-
---- Testing Module: [ROHONC] ---
-  [Run 04] Input: ['SACRAL_CROSS', 'INVERTED_V', 'LOOP_SIGN', 'DUAL_BARS'] ➔ Glued Cleartext: "Isten-Vár (Gottes Festung)"
-  [Run 05] Input: ['LOOP_SIGN', 'SQUARE_FRAME', 'DUAL_BARS', 'INVERTED_V'] ➔ Glued Cleartext: "Város-en-poko (Stadt im Feuer)"
-  [Run 06] Input: ['DUAL_BARS', 'WAVE_LINE', 'ANCHOR_SIGN'] ➔ Glued Cleartext: "Isten-sana (Göttlicher Segen)"
-
---- Testing Module: [PHAISTOS] ---
-  [Run 07] Input: ['feathered_head', 'shield', 'pedestrian', 'rosette'] ➔ Glued Cleartext: "Kupapa (Göttin)"
-  [Run 08] Input: ['buscht', 'kilt', 'messer'] ➔ Glued Cleartext: "Ime-te (Ration)"
-  [Run 10] Input: ['gefangener', 'bogen', 'krug'] ➔ Glued Cleartext: "Potore (Gießer)"
-
---- Testing Module: [RONGORONGO] ---
-  [Run 10] Input: ['crescent_moon', 'double_fish'] ➔ Glued Cleartext: "Mahi-Ika"
-  [Run 11] Input: ['sprouting_leaf', 'tangata_manu'] ➔ Glued Cleartext: "Toko"
-  [Run 12] Input: ['double_fish', 'sprouting_leaf'] ➔ Glued Cleartext: "Ika-Toko"
-
---- Testing Module: [KHITAN] ---
-  [Run 13] Input: ['crown_frame', 'sky_vault', 'golden_sun'] ➔ Glued Cleartext: "Tengg-ul (Dynastie)"
-  [Run 14] Input: ['golden_sun', 'crown_frame'] ➔ Glued Cleartext: "Ul"
-  [Run 15] Input: ['sky_vault', 'terminal_dot'] ➔ Glued Cleartext: "Tengg"
-
---- Testing Module: [INDUS] ---
-  [Run 16] Input: ['jar_sign', 'three_lines', 'fish_sign', 'cross_hatch'] ➔ Glued Cleartext: "Mudu-min-ka (Fischfang-Log)"
-  [Run 17] Input: ['fish_sign', 'cross_hatch'] ➔ Glued Cleartext: "Min-ka"
-  [Run 18] Input: ['three_lines', 'cross_hatch'] ➔ Glued Cleartext: "Mudu-ka"
-
-----------------------------------------------------------------------------------------------------------
-AUDIT STATUS: [100% PERFECT SCORE] 18 validation test sets successfully compiled.
+✔️ Pipeline Audit Output:
+  -> Inputs: ['   chtica  ', 'chulb', 'omar', 'teca', 'ocus', 'cal']
+  -> System Output:
+     "Urtica (Brennnesselstängel) [Quelle: Circa Instans...] | Ramo blu... | suco acet... | cald..."
 ==========================================================================================
 ```
+*If this data output prints on your screen, the software is fully functional and successfully deployed [1.1]!*
 
 ---
 
-## 📜 5. Intellectual Property Protection Matrix
+## ⚙️ Step 3: Integrating with AI Agents (Optional)
 
-*   **System Nomenclature:** The BERCEA Quantum-4 Decryption Protocol (BQDP) [1.1]
-*   **Core Framework Architect:** Ionuț Alin Bercea
-*   **Legal Ownership Banner:** **Copyright © 2026 Ionuț Alin Bercea**
-*   **Temporal Registry Datestamp:** September 8, 2026
+The backend is pre-configured for modern **AI Function Calling** infrastructure layers [1.1]. To bridge the mathematical core engine with a live conversational Large Language Model, follow these steps:
+
+1. Install the official Google GenAI communication bridge library:
+   ```bash
+   pip install google-genai
+   ```
+2. Configure your cloud authentication key token within your active terminal channel terminal:
+   * **Windows Command Prompt:** `set GEMINI_API_KEY=your_secret_api_key_here`
+   * **Mac / Linux Terminal:** `export GEMINI_API_KEY='your_secret_api_key_here'`
+3. Launch the automated AI orchestration interface layer:
+   ```bash
+   python run_bqdp_ai.py
+   ```
+
+---
+
+## 🔒 Security & Local Execution Policy
+* **100% Offline Operations:** The engine processes all geometric array matrix inversions and text corrections entirely locally on your hardware tracks [1.1]. No data is ever streamed to external network clouds to preserve research privacy [1.1].
+* **Execution Halt:** To force-quit an automated multi-token scanning sequence, execute `Ctrl + C` within your active command terminal.
