@@ -30,8 +30,8 @@ python --version
 Navigate to your active development workspace directory and clone the standalone files:
 
 ```bash
-git clone https://github.com
-cd YOUR_REPOSITORY_NAME
+git [clone https://github.com](https://github.com/Ano-ro/Voynich-BERCEA-Quantum-4.git)
+
 ```
 
 ### Option B: Manual Assembly
